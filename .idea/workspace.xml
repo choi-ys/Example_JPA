@@ -4,53 +4,37 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74867a18-5e08-42b0-b445-2d79006b706f" name="Default Changelist" comment="[2021-03-15][Ch01]용석:JPA 환경 설정&#10;&#10; - JPA 환경 설정 파일인 persistence.xml 생성 및 작성&#10;   - 경로 : java/resources/META-INF (고정)&#10;   - JPA를 통해 연동할 Database 접속 정보 설정&#10;   - JPA 구동 옵션 설정&#10;     - 실행 쿼리 출력 여부 옵션 설정&#10;     - 실행 쿼리 출력 시 포맷팅 여부 옵션 설정&#10;     - 실행 쿼리 출력 시 관련 내용 주석 출력 옵션 설정&#10;     - 스키마 자동 생성 옵션 설정 : 명시된 Entity를 기준으로 DDL 스크립트 생성 옵션&#10;     - 쓰기 지연 쿼리의 수 설정 옵션 설정">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Example_JPA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_classmate_1_3_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_195.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_javax_persistence_api_2_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_18_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_0_4_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_3_10_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_3_10_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_23_2_GA.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_5_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_3_2_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_1_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_7_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch01_HelloJPA/Ch01_HelloJPA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Ch01_HelloJPA/src/main/resources/log4j.properties" afterDir="false" />
+    <list default="true" id="74867a18-5e08-42b0-b445-2d79006b706f" name="Default Changelist" comment="[2021-03-15]용석:Ch02_Persist Project Initial commit">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ch02_PersistContext/Ch02_PersistContext.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ch02_PersistContext/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ch02_PersistContext/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ch02_PersistContext/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Ch01_HelloJPA/Ch01_HelloJPA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Ch01_HelloJPA/Ch01_HelloJPA.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="ch01/feature/2021-03-15-add-log4j-preferences" />
+        <entry key="$PROJECT_DIR$" value="ch01/feature/2021-03-15-add-jpa-crud-example" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,15 +50,19 @@
                 <list>
                   <RecentBranch>
                     <option name="branchName" value="master" />
-                    <option name="lastUsedInstant" value="1615785728" />
+                    <option name="lastUsedInstant" value="1615796774" />
                   </RecentBranch>
                   <RecentBranch>
-                    <option name="branchName" value="ch01/feature/2021-03-15-add-log4j-preferences" />
-                    <option name="lastUsedInstant" value="1615784798" />
+                    <option name="branchName" value="ch01/feature/2021-03-15-add-jpa-crud-example" />
+                    <option name="lastUsedInstant" value="1615794112" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="ch01/feature/2021-03-15-test-running-application" />
-                    <option name="lastUsedInstant" value="1615784663" />
+                    <option name="lastUsedInstant" value="1615785969" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="ch01/feature/2021-03-15-add-log4j-preferences" />
+                    <option name="lastUsedInstant" value="1615785770" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="ch01/feature/2021-03-15-add-jpa-preferences" />
@@ -105,10 +93,40 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Ch02_PersistContext/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Ch02_PersistContext/src/main/resources" />
+      <recent name="$PROJECT_DIR$/Ch02_PersistContext" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="domain" />
+      <recent name="ex02" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="domain" />
+      <recent name="generator" />
+      <recent name="ex02" />
+    </key>
+  </component>
   <component name="RunManager">
+    <configuration name="HelloJPA" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ex01.HelloJPA" />
+      <module name="Ch01_HelloJPA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -120,6 +138,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MemberEntityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ch01_HelloJPA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="domain" />
+      <option name="MAIN_CLASS_NAME" value="domain.MemberEntityTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberEntityTest.selectMemberEntityList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ch01_HelloJPA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="domain" />
+      <option name="MAIN_CLASS_NAME" value="domain.MemberEntityTest" />
+      <option name="METHOD_NAME" value="selectMemberEntityList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberEntityTest.updateMemberEntity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Ch01_HelloJPA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="domain" />
+      <option name="MAIN_CLASS_NAME" value="domain.MemberEntityTest" />
+      <option name="METHOD_NAME" value="updateMemberEntity" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.HelloJPA" />
+        <item itemvalue="JUnit.MemberEntityTest" />
+        <item itemvalue="JUnit.MemberEntityTest.selectMemberEntityList" />
+        <item itemvalue="JUnit.MemberEntityTest.updateMemberEntity" />
+        <item itemvalue="Application.HelloJPA" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -138,7 +212,35 @@
       <option name="project" value="LOCAL" />
       <updated>1615784438342</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[2021-03-15][Ch01]용석:출력 로그 환경 설정&#10;&#10; - log4j 환경 설정 파일인 log4j.properties 생성 및 작성&#10;   - log4j : Application 및 실행 쿼리 관련 로그 출력을 위한 Logging library&#10;   - 경로 : src/main/resources/log4j.properties (고정)&#10;   - 로그 출력 패턴 설정&#10;   - 실행 쿼리의 파라미터 출력 여부 옵션 설정">
+      <created>1615785821551</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1615785821551</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[2021-03-15][Ch01]용석:Project 관련 설정 파일 commit">
+      <created>1615785912446</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615785912446</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[2021-03-15][Ch01]용석:JPA 구동 예제&#10;&#10; - JPA의 설정파일을 기준으로 DB연동 객체 생성&#10; - DB에 연동할 Java객체 생성&#10; - JPA를 이용한 Java객체의 Insert예제 작성">
+      <created>1615793347070</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615793347070</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[2021-03-15][Ch01]용석:JPA를 이용한 CRUD 예제&#10; &#10; - JPA를 이용한 @Entity로 명시된 Java객체의 CRUD 예제 TC 작성">
+      <created>1615796439906</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615796439906</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +272,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[2021-03-15][Ch01]용석:JPA 환경 설정&#10;&#10; - JPA 환경 설정 파일인 persistence.xml 생성 및 작성&#10;   - 경로 : java/resources/META-INF (고정)&#10;   - JPA를 통해 연동할 Database 접속 정보 설정&#10;   - JPA 구동 옵션 설정&#10;     - 실행 쿼리 출력 여부 옵션 설정&#10;     - 실행 쿼리 출력 시 포맷팅 여부 옵션 설정&#10;     - 실행 쿼리 출력 시 관련 내용 주석 출력 옵션 설정&#10;     - 스키마 자동 생성 옵션 설정 : 명시된 Entity를 기준으로 DDL 스크립트 생성 옵션&#10;     - 쓰기 지연 쿼리의 수 설정 옵션 설정" />
-    <option name="LAST_COMMIT_MESSAGE" value="[2021-03-15][Ch01]용석:JPA 환경 설정&#10;&#10; - JPA 환경 설정 파일인 persistence.xml 생성 및 작성&#10;   - 경로 : java/resources/META-INF (고정)&#10;   - JPA를 통해 연동할 Database 접속 정보 설정&#10;   - JPA 구동 옵션 설정&#10;     - 실행 쿼리 출력 여부 옵션 설정&#10;     - 실행 쿼리 출력 시 포맷팅 여부 옵션 설정&#10;     - 실행 쿼리 출력 시 관련 내용 주석 출력 옵션 설정&#10;     - 스키마 자동 생성 옵션 설정 : 명시된 Entity를 기준으로 DDL 스크립트 생성 옵션&#10;     - 쓰기 지연 쿼리의 수 설정 옵션 설정" />
+    <MESSAGE value="[2021-03-15][Ch01]용석:출력 로그 환경 설정&#10;&#10; - log4j 환경 설정 파일인 log4j.properties 생성 및 작성&#10;   - log4j : Application 및 실행 쿼리 관련 로그 출력을 위한 Logging library&#10;   - 경로 : src/main/resources/log4j.properties (고정)&#10;   - 로그 출력 패턴 설정&#10;   - 실행 쿼리의 파라미터 출력 여부 옵션 설정" />
+    <MESSAGE value="[2021-03-15][Ch01]용석:Project 관련 설정 파일 commit" />
+    <MESSAGE value="[2021-03-15][Ch01]용석:JPA 구동 예제&#10;&#10; - JPA의 설정파일을 기준으로 DB연동 객체 생성&#10; - DB에 연동할 Java객체 생성&#10; - JPA를 이용한 Java객체의 Insert예제 작성" />
+    <MESSAGE value="[2021-03-15][Ch01]용석:JPA를 이용한 CRUD 예제&#10; &#10; - JPA를 이용한 @Entity로 명시된 Java객체의 CRUD 예제 TC 작성" />
+    <option name="LAST_COMMIT_MESSAGE" value="[2021-03-15][Ch01]용석:JPA를 이용한 CRUD 예제&#10; &#10; - JPA를 이용한 @Entity로 명시된 Java객체의 CRUD 예제 TC 작성" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
