@@ -1,3 +1,5 @@
+package ex01;
+
 import domain.MemberEntity;
 
 import javax.persistence.EntityManager;
