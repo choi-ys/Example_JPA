@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2"
+             xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+
+    <!--
+        EntityManagerFactory.createEntityManagerFactory를 통해 생성하는 EntityManager에 로딩되는 DB 및 JPA 설정 정보
+        <persistence-unit>태그의 name속성을 createEntityManagerFactory()메소드의 persistenceUnitName에 mapping
+    -->
+    <persistence-unit name="example-jpa">
+        <properties>
+            <!-- [필수] : JPA를 통해 연동할 Database 접속 정보 [H2 Database (In Memory)] -->
+            <property name="javax.persistence.jdbc.driver" value="org.h2.Driver"/>
+            <property name="javax.persistence.jdbc.user" value="sa"/>
+            <property name="javax.persistence.jdbc.password" value=""/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:h2:mem:test_db"/>
+            <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
+
+            <!-- [선택] : 실행 Query 출력 여부 옵션 -->
+            <property name="hibernate.show_sql" value="true"/>
+
+            <!-- [선택] : 실행 Query 출력 시 formatting 여부 옵션 -->
+            <property name="hibernate.format_sql" value="true"/>
+
+            <!-- [선택] : 실행 Query 출력 시 관련 내용 주석 출력 옵션 -->
+            <property name="hibernate.use_sql_comments" value="true"/>
+
+            <!-- [선택] : 스키마 자동 생성 옵션 : 명시된 Entity를 기준으로 DDL 스크립트 생성 옵션 -->
+            <property name="hibernate.hbm2ddl.auto" value="create-drop" />
+
+            <!-- [선택] : 쓰기 지연 쿼리의 수 설정 옵션 -->
+            <property name="hibernate.jdbc.batch_size" value="10"/>
+        </properties>
+    </persistence-unit>
+</persistence>
