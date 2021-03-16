@@ -1,6 +1,3 @@
-Ch01_HelloJPA/target/generated-sources/
-Ch01_HelloJPA/target/generated-test-sources/
-Ch01_HelloJPA.iml
-Ch02_PersistContext.iml
-.idea\
-.idea\
+**/.idea/*
+/**/*iml
+**/target
